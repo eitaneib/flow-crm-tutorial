@@ -1,10 +1,12 @@
 package com.example.application.data.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 import com.example.application.data.AbstractEntity;
 
 @Entity
+@Table(name = "status")
 public class Status extends AbstractEntity {
     private String name;
 
